@@ -1,0 +1,22 @@
+#box{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    /*display: -webkit-flex;*/
+    flex-direction: row;
+    align-items: center;
+    background-color: #999;
+}
+#one{
+    flex: 1;
+    background-color: orange;
+}
+#two{
+    flex: 4;
+    background-color: red;
+}
+#three{
+    flex: 1;
+    background-color: green;
+}
